@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/IfStatements.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Loops/forEachLoop.cs">
     <Files>
-      <File FileName="Assets/IfStatements.cs" Line="27" Column="35" />
+      <File FileName="Assets/Loops/doWhileLoop.cs" Line="11" Column="19" />
+      <File FileName="Assets/Loops/forLoop.cs" Line="13" Column="3" />
+      <File FileName="Assets/Loops/whileLoop.cs" Line="12" Column="8" />
+      <File FileName="Assets/Loops/forEachLoop.cs" Line="16" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

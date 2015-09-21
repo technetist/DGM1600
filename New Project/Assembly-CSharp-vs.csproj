@@ -48,6 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\IfStatements.cs" />
+     <Compile Include="Assets\Loops\doWhileLoop.cs" />
+     <Compile Include="Assets\Loops\forEachLoop.cs" />
+     <Compile Include="Assets\Loops\forLoop.cs" />
+     <Compile Include="Assets\Loops\whileLoop.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
