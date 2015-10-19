@@ -24,7 +24,7 @@ public class ClassandStuff : MonoBehaviour {
 		}
 	}
 
-	Military playerMil = new Miltary (6,7,1);
+	Military playerMil = new Military (6,7,1);
 
 	void Start () {
 		string temp = "0";

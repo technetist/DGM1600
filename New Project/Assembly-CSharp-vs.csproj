@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Array.cs" />
      <Compile Include="Assets\ClassandStuff.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\IfStatements.cs" />
