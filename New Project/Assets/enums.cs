@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class enums : MonoBehaviour {
-	enum Holidays : short {Halloween, Christmas, Easter, NewYears};
+	/*enum Holidays : short {Halloween, Christmas, Easter, NewYears};
 
 	void Start () {
 		Holidays myHolidays;
@@ -13,7 +13,7 @@ public class enums : MonoBehaviour {
 		if (day == Holidays.Christmas)
 			day = Holidays.Easter;
 		return day;
-	}
+	}*/
 
 }
 

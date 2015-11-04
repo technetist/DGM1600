@@ -55,6 +55,7 @@
      <Compile Include="Assets\Loops\forLoop.cs" />
      <Compile Include="Assets\Loops\whileLoop.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Switch.cs" />
      <Compile Include="Assets\enums.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
