@@ -1,0 +1,903 @@
+fileFormatVersion: 2
+guid: 4786d61b7cd3c9940a735813445af1c5
+timeCreated: 1447564717
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stage
+    21300002: Pupp walk 6
+    21300004: Puppy walk 1
+    21300006: Puppy jump 1
+    21300008: Puppy jump 2
+    21300010: Puppy one duck
+    21300012: Puppy two duck
+    21300014: Puppy laugh 1
+    21300016: Puppy laugh 2
+    21300018: Puppy walk 2
+    21300020: Puppy walk 3
+    21300022: Puppy walk 4
+    21300024: Puppy walk 5
+    21300026: points1500
+    21300028: points1000
+    21300030: points500
+    21300032: GreenDuck1
+    21300034: RedDuck2
+    21300036: RedDuck1
+    21300038: GreenDuck2
+    21300040: GreenDuck3
+    21300042: GreenDuck4
+    21300044: GreenDuck5
+    21300046: GreenDuck6
+    21300048: GreenDuck7
+    21300050: GreenDuck8
+    21300052: GreenDuck9
+    21300054: RedDuck3
+    21300056: RedDuck4
+    21300058: RedDuck5
+    21300060: RedDuck6
+    21300062: RedDuck7
+    21300064: RedDuck8
+    21300066: RedDuck9
+    21300068: BlueDuck1
+    21300070: BlueDuck2
+    21300072: BlueDuck3
+    21300074: BlueDuck4
+    21300076: BlueDuck5
+    21300078: BlueDuck6
+    21300080: BlueDuck7
+    21300082: BlueDuck8
+    21300084: BlueDuck9
+    21300086: Pause
+    21300088: Fly Away
+    21300090: 0
+    21300092: 1
+    21300094: 2
+    21300096: 3
+    21300098: 4
+    21300100: 5
+    21300102: 6
+    21300104: 7
+    21300106: 8
+    21300108: 9
+    21300110: 00
+    21300112: 11
+    21300114: 22
+    21300116: 33
+    21300118: 44
+    21300120: 55
+    21300122: 66
+    21300124: 77
+    21300126: 88
+    21300128: 99
+    21300130: hit
+    21300132: duckhit
+    21300134: ammospent
+    21300136: ammo
+    21300138: duckremain
+    21300140: score
+    21300142: noammo
+    21300144: ammocount
+    21300146: bullet
+    21300148: pinkbar
+    21300150: bluebar
+    21300152: credits
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Stage
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 256
+        height: 241
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pupp walk 6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 173
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy walk 1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 236
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy jump 1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 179
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy jump 2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 179
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy one duck
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 177
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy two duck
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 177
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy laugh 1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 179
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy laugh 2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 179
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy walk 2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 236
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy walk 3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 235
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy walk 4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 235
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Puppy walk 5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 235
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: points1500
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 256
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: points1000
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 248
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: points500
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 240
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 135
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 92
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 92
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 135
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 134
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 131
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 130
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck6
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 128
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck7
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 127
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck8
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 127
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GreenDuck9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 127
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck3
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 90
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 91
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 90
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck6
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 88
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 87
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 86
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RedDuck9
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 86
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck1
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 49
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 49
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 47
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck4
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 48
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck5
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 47
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 45
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 44
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck8
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 44
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueDuck9
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 44
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pause
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 8
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly Away
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 22
+        width: 73
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 1
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 32
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 2
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 32
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 7
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 8
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 9
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 00
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 22
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 33
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 44
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 55
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 16
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 66
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 77
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 88
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 99
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hit
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 10
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: duckhit
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 9
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ammospent
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 1
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ammo
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 21
+        width: 47
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: duckremain
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 28
+        width: 79
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: score
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 21
+        width: 39
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: noammo
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ammocount
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 21
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bullet
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 29
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pinkbar
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 11
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bluebar
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 11
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: credits
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
