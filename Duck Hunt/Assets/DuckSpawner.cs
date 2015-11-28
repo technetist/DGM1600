@@ -5,9 +5,9 @@ public class DuckSpawner : MonoBehaviour {
 	public GameObject duck;
 
 	// Use this for initialization
-	//void Start () {
-
-	//}
+	void Start () {
+        GameManager.OnSpawnDucks += SpawnDuck;
+	}
 	
 	// Update is called once per frame
 	//void Update () {

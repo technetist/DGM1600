@@ -5,9 +5,11 @@ public class DirectionChanger : MonoBehaviour {
 	public enum Changer {Horizontal, Vertical}
 	public Changer changer;
 	// Use this for initialization
-	//void Start () {
-	
-	//}
+	void Start () {
+        GameManager.OnDuckShot += TurnOff;
+        GameManager.OnDuckMiss += TurnOff;
+        GameManager.OnSpawnDucks += TurnOn;
+	}
 	
 	// Update is called once per frame
 	//void Update () {
@@ -30,4 +32,13 @@ public class DirectionChanger : MonoBehaviour {
 			}
 		}
 	}
+    public void TurnOff()
+    {
+        gameObject.SetActive(false);
+    }
+
+    public void TurnOn()
+    {
+        gameObject.SetActive(true);
+    }
 }
