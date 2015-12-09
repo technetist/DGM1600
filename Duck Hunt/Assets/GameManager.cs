@@ -10,13 +10,27 @@ public class GameManager : MonoBehaviour
     public static DuckDel OnDuckFlyAway;
     public static DuckDel OnDuckMiss;
 
-    // Use this for initialization
-    //void Start () {
+	public GUIManager guimanager;
 
-    //}
+	public int MaxDucks;
+	private int currentDuck;
+
+    // Use this for initialization
+    void Start () 
+	{
+		currentDuck = 0;
+    }
 
     // Update is called once per frame
-    //void Update () {
+    void Update () {
 
-    //}
+    }
+
+	public void IncrementDucks()
+	{
+		if (currentDuck < MaxDucks) {
+			currentDuck ++;
+	
+		}
+	}
 }

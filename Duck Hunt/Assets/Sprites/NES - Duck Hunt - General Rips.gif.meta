@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4786d61b7cd3c9940a735813445af1c5
-timeCreated: 1449094048
+timeCreated: 1449696590
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -82,6 +82,7 @@ TextureImporter:
     21300150: bluebar
     21300152: credits
     21300154: NES - Duck Hunt - General Rips_0
+    21300156: NES - Duck Hunt - General Rips_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -822,7 +823,7 @@ TextureImporter:
         serializedVersion: 2
         x: 117
         y: 28
-        width: 79
+        width: 7
         height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -907,6 +908,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 15, y: 7, z: 16, w: 6}
+    - name: NES - Duck Hunt - General Rips_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 28
+        width: 79
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

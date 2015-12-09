@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GUIManager : MonoBehaviour {
-	/*public GameObject[] bullets;
+	public GameObject[] bullets;
+	//public Sprites[] ducks;
+	public Text score;
 
 	// Use this for initialization
 	void Start () {
-		GameManager.OnSpawnDucks = ResetBullets;
+		GameManager.OnSpawnDucks += ResetBullets;
 	}
 	
 	// Update is called once per frame
@@ -16,7 +19,10 @@ public class GUIManager : MonoBehaviour {
 
 	public void DisableBullet(int index)
 	{
-		bullets[index].SetActive(false);
+		if (index >= 0 && index < bullets.Length) 
+		{
+			bullets [index].SetActive (false);
+		}
 	}
 
 	void ResetBullets()
@@ -24,5 +30,5 @@ public class GUIManager : MonoBehaviour {
 		foreach (GameObject bul in bullets) {
 			bul.SetActive (true);
 		}
-	}*/
+	}
 }
