@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GUIManager : MonoBehaviour {
-	public GameObject[] bullets;
+	/*public GameObject[] bullets;
 
 	// Use this for initialization
 	void Start () {
@@ -24,5 +24,5 @@ public class GUIManager : MonoBehaviour {
 		foreach (GameObject bul in bullets) {
 			bul.SetActive (true);
 		}
-	}
+	}*/
 }

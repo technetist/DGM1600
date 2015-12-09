@@ -8,7 +8,7 @@ public class Shooter : MonoBehaviour
     private int bulletAmt;
     public int maxBullets;
 
-	public GUIManager guiManager;
+	//public GUIManager guiManager;
 	// Use this for initialization
 	void Start ()
     {
