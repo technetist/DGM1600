@@ -8,8 +8,11 @@ public class DuckMovement : MonoBehaviour {
     private int bounce;
     public int bounceMax;
 
+    Animator anim;
+
 	// Use this for initialization
 	void Start () {
+        anim = GetComponent<Animator>();
         GameManager.OnDuckShot += StopMovement;
         GameManager.OnDuckMiss += FlyAway;
 		RandomDirection();
@@ -24,11 +27,15 @@ public class DuckMovement : MonoBehaviour {
 	public void RandomDirection()
 	{
 		direction = new Vector3 (Random.Range (-1f, 1f), Random.Range (.2f, 1f), 0);
-	}
+
+        ChangeAnimation();
+    }
 
 	public void DirectionChanger(Vector3 _dir)
 	{
 		direction = new Vector3(direction.x * _dir.x, direction.y * _dir.y, 0);
+
+        ChangeAnimation();
 
         bounce++;
 
@@ -52,5 +59,25 @@ public class DuckMovement : MonoBehaviour {
     public void FlyAway()
     {
         direction = new Vector3(0, 1, 0);
+    }
+
+    private void ChangeAnimation()
+    {
+        if (direction.x < .5f && direction.x > 0f)
+        {
+            anim.Play("DuckFlyUpRight");
+        }
+        else if (direction.x > -.5f && direction.x < 0f)
+        {
+            anim.Play("DuckFlyUpLeft");
+        }
+        else if (direction.x < 1f && direction.x > .5f)
+        {
+            anim.Play("DuckFlySideRight");
+        }
+        else if (direction.x > -1f && direction.x < -.5f)
+        {
+            anim.Play("DuckFlySideLeft");
+        }
     }
 }

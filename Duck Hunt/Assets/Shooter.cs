@@ -24,6 +24,8 @@ public class Shooter : MonoBehaviour
 
 			guiManager.DisableBullet(bulletAmt);
 
+            DuckHealth dieded = GetComponent<DuckHealth>();
+
             if(bulletAmt <= 0)
             {
                 GameManager.OnDuckMiss();
@@ -37,8 +39,8 @@ public class Shooter : MonoBehaviour
             {
                 if(hit.transform.tag == "Duck")
                 {
-                    //use getcompoenet in hit to get duck health script. Using that, call the kill duck function in the duck health script
                     hit.collider.gameObject.GetComponent<DuckHealth>().KillDuck();
+                    
                 }
             }
         }
