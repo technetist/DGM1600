@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public int scoreAmt;
     private int score;
 
+	public static GameObject duckie;
+
     // Use this for initialization
     void Start () 
 	{

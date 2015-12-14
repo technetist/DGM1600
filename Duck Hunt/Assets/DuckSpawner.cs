@@ -17,6 +17,7 @@ public class DuckSpawner : MonoBehaviour {
 	public void SpawnDuck()
 	{
 		Debug.Log("Spawn Duck");
-		Instantiate (duck, transform.position, Quaternion.identity);
+		GameObject tempDuck = (GameObject)Instantiate (duck, transform.position, Quaternion.identity);
+		GameManager.duckie = tempDuck;
 	}
 }

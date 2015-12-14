@@ -8,6 +8,7 @@ public class DuckMovement : MonoBehaviour {
     private int bounce;
     public int bounceMax;
 
+	public DuckHealth dieded;
     Animator anim;
 
 	// Use this for initialization
@@ -16,6 +17,7 @@ public class DuckMovement : MonoBehaviour {
         GameManager.OnDuckShot += StopMovement;
         GameManager.OnDuckMiss += FlyAway;
 		RandomDirection();
+		dieded = gameObject.GetComponent<DuckHealth>();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +51,7 @@ public class DuckMovement : MonoBehaviour {
     public void StopMovement()
     {
         direction = new Vector3(0, 0, 0);
+
     }
 
     public void StartFall()

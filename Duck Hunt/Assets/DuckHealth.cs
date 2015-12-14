@@ -45,4 +45,9 @@ public class DuckHealth : MonoBehaviour {
     {
         isInvincible = true;
     }
+
+	public bool CheckInvins()
+	{
+		return isInvincible;
+	}
 }

@@ -8,11 +8,14 @@ public class Shooter : MonoBehaviour
     private int bulletAmt;
     public int maxBullets;
 
+	public DuckHealth health;
+
 	public GUIManager guiManager;
 	// Use this for initialization
 	void Start ()
     {
         GameManager.OnSpawnDucks += ResetBullets;
+
 	}
 	
 	// Update is called once per frame
@@ -24,9 +27,9 @@ public class Shooter : MonoBehaviour
 
 			guiManager.DisableBullet(bulletAmt);
 
-            DuckHealth dieded = GetComponent<DuckHealth>();
-
-            if(bulletAmt <= 0)
+            
+			health = GameManager.duckie.GetComponent<DuckHealth>();
+            if(bulletAmt < 0 && health.CheckInvins()==false)
             {
                 GameManager.OnDuckMiss();
                 Debug.Log("No more ammo");
